@@ -1,0 +1,6 @@
+kernel vec4 fadeToBW(__sample s, float factor) {
+    vec3 lum = vec3(0.299,0.587,0.114);
+    vec3 bw = vec3(dot(s.rgb,lum));
+    vec3 pixel = s.rgb + (bw - s.rgb) * factor;
+    return vec4(pixel,s.a);
+}

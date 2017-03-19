@@ -13,7 +13,7 @@
 		6276D5731E7CC2490096A320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6276D5721E7CC2490096A320 /* Assets.xcassets */; };
 		6276D5761E7CC2490096A320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6276D5741E7CC2490096A320 /* LaunchScreen.storyboard */; };
 		6276D5811E7CC3180096A320 /* FadeToBW.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 6276D5801E7CC3180096A320 /* FadeToBW.cikernel */; };
-		62C54CE51E7CC3F200FF2169 /* GLKViewDFD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C54CE41E7CC3F200FF2169 /* GLKViewDFD.swift */; };
+		62C54CE51E7CC3F200FF2169 /* ImageViewGLK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C54CE41E7CC3F200FF2169 /* ImageViewGLK.swift */; };
 		62C54CE91E7CC40300FF2169 /* autumn.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 62C54CE61E7CC40300FF2169 /* autumn.jpeg */; };
 		62C54CEA1E7CC40300FF2169 /* hot_air_balloons.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 62C54CE71E7CC40300FF2169 /* hot_air_balloons.jpeg */; };
 		62C54CEB1E7CC40300FF2169 /* sunset.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 62C54CE81E7CC40300FF2169 /* sunset.jpeg */; };
@@ -29,7 +29,7 @@
 		6276D5751E7CC2490096A320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6276D5771E7CC2490096A320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6276D5801E7CC3180096A320 /* FadeToBW.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FadeToBW.cikernel; sourceTree = "<group>"; };
-		62C54CE41E7CC3F200FF2169 /* GLKViewDFD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLKViewDFD.swift; sourceTree = "<group>"; };
+		62C54CE41E7CC3F200FF2169 /* ImageViewGLK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewGLK.swift; sourceTree = "<group>"; };
 		62C54CE61E7CC40300FF2169 /* autumn.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = autumn.jpeg; sourceTree = "<group>"; };
 		62C54CE71E7CC40300FF2169 /* hot_air_balloons.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hot_air_balloons.jpeg; sourceTree = "<group>"; };
 		62C54CE81E7CC40300FF2169 /* sunset.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunset.jpeg; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				6276D5801E7CC3180096A320 /* FadeToBW.cikernel */,
-				62C54CE41E7CC3F200FF2169 /* GLKViewDFD.swift */,
+				62C54CE41E7CC3F200FF2169 /* ImageViewGLK.swift */,
 				62C54CE61E7CC40300FF2169 /* autumn.jpeg */,
 				62C54CE71E7CC40300FF2169 /* hot_air_balloons.jpeg */,
 				62C54CE81E7CC40300FF2169 /* sunset.jpeg */,
@@ -161,7 +161,7 @@
 			files = (
 				6276D56E1E7CC2490096A320 /* ViewController.swift in Sources */,
 				62C54D101E7EBF4800FF2169 /* UIColor.swift in Sources */,
-				62C54CE51E7CC3F200FF2169 /* GLKViewDFD.swift in Sources */,
+				62C54CE51E7CC3F200FF2169 /* ImageViewGLK.swift in Sources */,
 				6276D56C1E7CC2490096A320 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

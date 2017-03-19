@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     // Core Image
     
     var imgOriginal:CIImage!
-    let imageView = GLKViewDFD()
+    let imageView = ImageViewGLK()
     var ciKernel:CIColorKernel!
     var fadeFactor = UISlider()
     
@@ -123,6 +123,10 @@ extension ViewController {
         imageView.image = outputImage
         imageView.setNeedsDisplay()
         
+    }
+    
+    func clamp(_ x:Float, _ minVal:Float, _ maxVal:Float) -> Float {
+        return min(max(x, minVal), maxVal)
     }
     
 }

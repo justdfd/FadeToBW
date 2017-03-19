@@ -1,5 +1,5 @@
 //
-//  GLKViewDFD.swift
+//  ImageViewGLK.swift
 //  FadeToBW
 //
 //  Created by Dave Dombrowski on 8/6/16.
@@ -10,7 +10,7 @@
 import CoreImage
 import GLKit
 
-open class GLKViewDFD: GLKView {
+open class ImageViewGLK: GLKView {
     
     var renderContext: CIContext
     
